@@ -1,0 +1,8 @@
+---
+import Link from "../components/Link.astro";
+const linkNames = ["Home", "About", "Contact", "Blog", "Careers"];
+---
+
+<nav class="flex gap-5">
+	{linkNames.map((link) => <Link href={link.toLowerCase} label={link} />)}
+</nav>
