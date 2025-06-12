@@ -1,0 +1,19 @@
+---
+import Section from "@layouts/Section.astro";
+import Paragraph from "@components/Paragraph.astro";
+import RequestButton from "@components/RequestButton.astro";
+---
+
+<main>
+	<Section additionalClass="mt-16" isFirstPage="true">
+		<div class="w-1/3 flex gap-5 flex-col">
+			<h1 class="text-5xl text-dark-blue font-normal">
+				Next generation <br /> digital banking
+			</h1>
+			<Paragraph
+				content="Take your financial life online. Your EasyBank account will be a one-stop-shop for spending, saving, bugeting, investing, and much more."
+			/>
+			<RequestButton />
+		</div>
+	</Section>
+</main>
