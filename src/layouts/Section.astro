@@ -1,0 +1,9 @@
+---
+const { additionalClass, isFirstPage } = Astro.props;
+---
+
+<section
+	class=`bg-very-light-gray flex items-center px-20 ${isFirstPage ? "h-[calc(100dvh---spacing(16))]" : "h-dvh" } ${additionalClass}`
+>
+	<slot />
+</section>
