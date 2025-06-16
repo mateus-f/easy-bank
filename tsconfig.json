@@ -15,9 +15,13 @@
       ],
       "@components/*": [
         "src/components/*"
-      ],"@layouts/*": [
+      ],
+      "@layouts/*": [
         "src/layouts/*"
       ],
+      "@data/*": [
+        "src/data/*"
+      ]
     }
   }
 }
