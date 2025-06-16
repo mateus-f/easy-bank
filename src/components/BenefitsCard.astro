@@ -1,0 +1,11 @@
+---
+import Paragraph from "./Paragraph.astro";
+import HeadingThree from "./HeadingThree.astro";
+const { href, title, content } = Astro.props;
+---
+
+<div class="flex flex-col gap-5 max-sm:items-center">
+	<img src={href} alt={`${title}'s icon`} class="h-15 w-15 " />
+	<HeadingThree content={title} />
+	<Paragraph content={content} />
+</div>
